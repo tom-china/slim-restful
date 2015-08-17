@@ -6,7 +6,7 @@ error_reporting(E_ALL | E_STRICT);
 
 $dsn = "mysql:dbname=slimtut;host=localhost";
 $username = "root";
-$password = "root";
+$password = "xxg111063053";
 $pdo = new PDO($dsn, $username, $password);
 
 $db = new NotORM($pdo);
