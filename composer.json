@@ -1,7 +1,24 @@
 {
+    "name":"kenfo/slimResful",
+    "type":"framework",
+    "description":"MVC for the PHP microframework Slim",
+    "keywords":["microframework", "rest", "router", "mvc"],
+    "homepage":"http://104.131.144.192/slim-restful/",
+    "license":"MIT",
+    "authors":[
+        {
+            "name":"kenfo"
+        }
+    ],
     "require": {
+    	"php":">=5.3.0",
         "slim/slim": "2.*",
         "vrana/notorm":"dev-master",
         "zircote/swagger-php":"*"
+    },
+    "autoload":{
+        "psr-0":{
+            "": "app/"
+        }
     }
 }
