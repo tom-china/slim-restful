@@ -2,8 +2,8 @@
 
 /**
  * @SWG\Swagger(
- *     basePath="/api",
- *     host="http://104.131.144.192/slim-restful/",
+ *     basePath="/app/index.php",
+ *     host="localhost:9995/slim-restful",
  *     schemes={"http"},
  *     produces={"application/json"},
  *     consumes={"application/json"},
